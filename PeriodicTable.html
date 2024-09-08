@@ -1,0 +1,1974 @@
+<style>
+   button{
+      transition: cursor 0.15s;
+   }
+   button:hover{
+      cursor:pointer;
+   }
+   button:active{
+      cursor:progress;
+   }
+.period{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 39px;
+  text-decoration: underline;
+  font-family: arial;
+  margin-left: 195px;
+  margin-top:2px;
+}
+.period12{
+   transition: box-shadow 0.15s;
+}
+.period12:hover{
+   box-shadow: 10px 10px 50px rgba(183, 209, 183, 0.6);
+}
+.ret{
+  background-color: rgb(106, 107, 30);
+}
+.none{
+   color: black;
+   background-color: rgb(129, 247, 247);
+   border-color: rgb(129, 247, 247);
+   border-radius:7px;
+   border-style:solid ;
+}
+.none1{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(53, 12, 219);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   vertical-align: top;
+}
+.none2{
+   color: black;
+   background-color: rgb(31, 65, 236);
+   border-color: rgb(33, 60, 155); 
+   border-radius:7px;
+   border-style:solid ;
+   margin-right: 0px;
+}
+.none3{
+   color: black;
+   background-color: rgb(73, 76, 225);
+   border-color: rgb(114, 107, 209);
+   border-radius:7px;
+   border-style:solid ;
+   vertical-align: top;
+   margin-left: 0px;
+}
+.none4{
+   color: black;
+   background-color: rgb(230, 185, 126);
+   border-color: rgb(192,158,113);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none5{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(7, 120, 232);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none6{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(115, 184, 252);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none7{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(63, 146, 229);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left: 0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none8{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none9{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(67, 32, 207);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   vertical-align: top;
+}
+.none10{
+   color: black;
+   background-color: rgb(31, 65, 236);
+   border-color: rgb(33, 60, 155);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none11{
+   color: black;
+   background-color: rgb(73,76, 225);
+   border-color: rgb(114,107,209);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none12{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(51, 145, 240);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none13{
+   color: black;
+   background-color:rgb(230, 185, 126);
+   border-color: rgb(192, 158, 113);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none14{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none15{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none16{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none18{
+   color: black;
+   background-color: rgb(31,65,236);
+   border-color: rgb(33,60,155);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none19{
+   color: black;
+   background-color: rgb(73, 76,225);
+   border-color: rgb(114,107,209);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none17{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none20{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none21{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none22{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none23{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none24{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none25{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none26{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none27{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none28{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none29{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none30{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none31{
+   color: black;
+   background-color:rgb(230, 185, 126);
+   border-color: rgb(192, 158, 113);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none32{
+   color: black;
+   background-color: rgb(230, 185, 126);
+   border-color:rgb(192,158, 113);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none33{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none34{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none35{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none36{
+   color: black;
+   background-color: rgb(31, 65, 236);
+   border-color: rgb(33,60,155);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none37{
+   color: black;
+   background-color: rgb(73,76,225);
+   border-color: rgb(114,107,209);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none38{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none39{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none40{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none41{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none42{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none43{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none44{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none45{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none46{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none47{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none48{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none49{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none50{
+   color: black;
+   background-color:rgb(230, 185, 126);
+   border-color: rgb(192, 158, 113);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none51{
+   color: black;
+   background-color:rgb(230, 185, 126);
+   border-color: rgb(192, 158, 113);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none52{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none53{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none54{
+   color: black;
+   background-color: rgb(31,65,236);
+   border-color: rgb(33,60,155);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none55{
+   color: black;
+   background-color: rgb(73,76,225);
+   border-color: rgb(114,107,209);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.noneTY{
+   color: black;
+   background-color: rgb(236, 49, 173);
+   border-color: rgb(236, 49, 173);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none71{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none72{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none73{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none74{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none75{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none76{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none77{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none78{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none79{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none80{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none81{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none82{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none83{
+   color: black;
+   background-color: rgb(230, 185, 126);
+   border-color: rgb(192, 158, 113);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none84{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none85{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none86{
+   color: black;
+   background-color: rgb(31,65,236);
+   border-color: rgb(33,60,155);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none87{
+   color: black;
+   background-color: rgb(73,76,225);
+   border-color: rgb(114,107,209);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.noneKM{
+   color: black;
+   background-color: rgb(31, 249, 34);
+   border-color: rgb(31, 249, 34);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none103{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none104{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none105{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none106{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none107{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none108{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none109{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none110{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none111{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none56{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none57{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none58{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none59{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none60{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none61{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none62{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none63{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none64{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none65{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none66{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none67{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none68{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none69{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none70{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none88{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none89{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none90{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none91{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none92{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none93{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none94{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none95{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none96{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none97{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none98{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none99{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none100{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none101{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.none102{
+   color: black;
+   background-color: rgb(255, 255, 255);
+   border-color: rgb(62, 134, 205);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.noneXZ{
+   color: rgb(106, 107, 30);
+   background-color:rgb(106, 107, 30);
+   border-color:rgb(106, 107, 30);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.noneXZ:hover{
+   cursor: auto;
+}
+.noneUW{
+   color: rgb(106, 107, 30);
+   background-color:rgb(106, 107, 30);
+   border-color:rgb(106, 107, 30);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:8px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.noneUW:hover{
+   cursor: auto;
+}
+.noneBW{
+   color: rgb(106, 107, 30);
+   background-color:rgb(106, 107, 30);
+   border-color:rgb(106, 107, 30);
+   border-radius:7px;
+   border-style:solid ;
+   margin-left:0px;
+   margin-right: 0px;
+   vertical-align: top;
+}
+.noneBW:hover{
+   cursor: auto;
+}
+
+</style>
+<body class="ret">
+<p class="period"><span class="period12">LONG FORM PERIODIC TABLE</span></p>
+<a href="https://en.wikipedia.org/wiki/Hydrogen" target="fg"><button class="none">
+<span class="zero">1</span><br/>
+<span class="one">H</span><br/>
+<span class="three">1.010</span>
+</button></a>
+<button class="noneXZ">
+   <span class="zeroXZ">22</span><br/>
+   <span class="oneXZ">Ti</span><br/>
+    <span class="threeXZ">47.90</span>
+   </button>
+   <button class="noneXZ">
+      <span class="zeroXZ">22</span><br/>
+      <span class="oneXZ">Ti</span><br/>
+       <span class="threeXZ">47.90</span>
+      </button>
+      <button class="noneXZ">
+         <span class="zeroXZ">22</span><br/>
+         <span class="oneXZ">Ti</span><br/>
+          <span class="threeXZ">47.90</span>
+         </button>
+         <button class="noneXZ">
+            <span class="zeroXZ">22</span><br/>
+            <span class="oneXZ">Ti</span><br/>
+             <span class="threeXZ">47.90</span>
+            </button>
+            <button class="noneXZ">
+               <span class="zeroXZ">22</span><br/>
+               <span class="oneXZ">Ti</span><br/>
+                <span class="threeXZ">47.90</span>
+               </button>
+               <button class="noneXZ">
+                  <span class="zeroXZ">22</span><br/>
+                  <span class="oneXZ">Ti</span><br/>
+                   <span class="threeXZ">47.90</span>
+                  </button>
+                  <button class="noneXZ">
+                     <span class="zeroXZ">22</span><br/>
+                     <span class="oneXZ">Ti</span><br/>
+                      <span class="threeXZ">47.90</span>
+                     </button>
+                     <button class="noneXZ">
+                        <span class="zeroXZ">22</span><br/>
+                        <span class="oneXZ">Ti</span><br/>
+                         <span class="threeXZ">47.90</span>
+                        </button>
+                        <button class="noneXZ">
+                           <span class="zeroXZ">22</span><br/>
+                           <span class="oneXZ">Ti</span><br/>
+                            <span class="threeXZ">47.90</span>
+                           </button>
+                           <button class="noneXZ">
+                              <span class="zeroXZ">22</span><br/>
+                              <span class="oneXZ">Ti</span><br/>
+                               <span class="threeXZ">47.90</span>
+                              </button>
+                              <button class="noneXZ">
+                                 <span class="zeroXZ">22</span><br/>
+                                 <span class="oneXZ">Ti</span><br/>
+                                  <span class="threeXZ">47.90</span>
+                                 </button>
+                                 <button class="noneXZ">
+                                    <span class="zeroXZ">22</span><br/>
+                                    <span class="oneXZ">Ti</span><br/>
+                                     <span class="threeXZ">47.90</span>
+                                    </button>
+                                    <button class="noneXZ">
+                                       <span class="zeroXZ">22</span><br/>
+                                       <span class="oneXZ">Ti</span><br/>
+                                        <span class="threeXZ">47.90</span>
+                                       </button>
+                                       <button class="noneXZ">
+                                          <span class="zeroXZ">22</span><br/>
+                                          <span class="oneXZ">Ti</span><br/>
+                                           <span class="threeXZ">47.90</span>
+                                          </button>
+                                          <button class="noneXZ">
+                                             <span class="zeroXZ">22</span><br/>
+                                             <span class="oneXZ">Ti</span><br/>
+                                              <span class="threeXZ">47.90</span>
+                                             </button>
+                                             <button class="noneXZ">
+                                                <span class="zeroXZ">22</span><br/>
+                                                <span class="oneXZ">Ti</span><br/>
+                                                 <span class="threeXZ">47.90</span>
+                                                </button>
+<a href="https://en.wikipedia.org/wiki/Helium" target="fg"><button class="none1">
+  <span class="zero1">2</span><br/>
+  <span class="one1">He</span><br/> 
+  <span class="three1">4.000</span>
+  </button></a><br/>
+  <a href="https://en.wikipedia.org/wiki/Lithium" target="fg"><button class="none2">
+    <span class="zero2">3</span><br/>
+    <span class="one2">Li</span><br/>   
+    <span class="three2">6.940</span>
+    </button></a>
+    <a href="https://en.wikipedia.org/wiki/Beryllium" target="fg"><button class="none3">
+      <span class="zero3">4</span><br/>
+      <span class="one3">Be</span><br/>   
+      <span class="three3">9.010</span>
+      </button></a>
+      <button class="noneXZ">
+         <span class="zeroXZ">22</span><br/>
+         <span class="oneXZ">Ti</span><br/>
+          <span class="threeXZ">47.90</span>
+         </button>
+         <button class="noneXZ">
+            <span class="zeroXZ">22</span><br/>
+            <span class="oneXZ">Ti</span><br/>
+             <span class="threeXZ">47.90</span>
+            </button>
+            <button class="noneXZ">
+               <span class="zeroXZ">22</span><br/>
+               <span class="oneXZ">Ti</span><br/>
+                <span class="threeXZ">47.90</span>
+               </button>
+               <button class="noneXZ">
+                  <span class="zeroXZ">22</span><br/>
+                  <span class="oneXZ">Ti</span><br/>
+                   <span class="threeXZ">47.90</span>
+                  </button>
+                  <button class="noneXZ">
+                     <span class="zeroXZ">22</span><br/>
+                     <span class="oneXZ">Ti</span><br/>
+                      <span class="threeXZ">47.90</span>
+                     </button>
+                     <button class="noneXZ">
+                        <span class="zeroXZ">22</span><br/>
+                        <span class="oneXZ">Ti</span><br/>
+                         <span class="threeXZ">47.90</span>
+                        </button>
+                        <button class="noneXZ">
+                           <span class="zeroXZ">22</span><br/>
+                           <span class="oneXZ">Ti</span><br/>
+                            <span class="threeXZ">47.90</span>
+                           </button>
+                           <button class="noneXZ">
+                              <span class="zeroXZ">22</span><br/>
+                              <span class="oneXZ">Ti</span><br/>
+                               <span class="threeXZ">47.90</span>
+                              </button>
+                              <button class="noneXZ">
+                                 <span class="zeroXZ">22</span><br/>
+                                 <span class="oneXZ">Ti</span><br/>
+                                  <span class="threeXZ">47.90</span>
+                                 </button>
+                                 <button class="noneXZ">
+                                    <span class="zeroXZ">22</span><br/>
+                                    <span class="oneXZ">Ti</span><br/>
+                                     <span class="threeXZ">47.90</span>
+                                    </button>
+      <a href="https://en.wikipedia.org/wiki/Boron" target="fg"><button class="none4">
+        <span class="zero4">5</span><br/>
+        <span class="one4">B</span><br/>      
+        <span class="three4">10.81</span>
+        </button></a>   
+     <a href="https://en.wikipedia.org/wiki/Carbon" target="fg"><button class="none5">
+        <span class="zero5">6</span><br/>
+        <span class="one5">C</span><br/> 
+        <span class="three5">12.01</span>
+        </button></a>     
+      <a href="https://en.wikipedia.org/wiki/Nitrogen" target="fg"><button class="none6">
+        <span class="zero6">7</span><br/>
+        <span class="one6">N</span><br/>      
+        <span class="three6">14.01</span>
+        </button></a>    
+      <a href="https://en.wikipedia.org/wiki/Oxygen" target="fg"><button class="none7">
+        <span class="zero7">8</span><br/>
+        <span class="one7">O</span><br/>    
+        <span class="three7">16.00</span>
+        </button></a>    
+      <a href="https://en.wikipedia.org/wiki/Fluorine" target="fg"><button class="none8">
+        <span class="zero8">9</span><br/>
+        <span class="one8">F</span><br/>    
+        <span class="three8">19.00</span>
+        </button></a>    
+     <a href="https://en.wikipedia.org/wiki/Neon" target="rg"><button class="none9">
+        <span class="zero9">10</span><br/>
+        <span class="one9">Ne</span><br/>
+        <span class="three9">20.18</span>
+        </button></a><br/>
+       <a href="https://en.wikipedia.org/wiki/Sodium" target="rg"><button class="none10">
+         <span class="zero10">11</span><br/>
+         <span class="one10">Na</span><br/>
+       <span class="three10">23.00</span>
+         </button></a>
+         <a href="https://en.wikipedia.org/wiki/Magnesium" target="fg"><button class="none11">
+            <span class="zero11">12</span><br/>
+            <span class="one11">Mg</span><br/>
+          <span class="three11">24.30</span>
+            </button></a>
+            <button class="noneXZ">
+               <span class="zeroXZ">22</span><br/>
+               <span class="oneXZ">Ti</span><br/>
+                <span class="threeXZ">47.90</span>
+               </button>
+               <button class="noneXZ">
+                  <span class="zeroXZ">22</span><br/>
+                  <span class="oneXZ">Ti</span><br/>
+                   <span class="threeXZ">47.90</span>
+                  </button>
+                  <button class="noneXZ">
+                     <span class="zeroXZ">22</span><br/>
+                     <span class="oneXZ">Ti</span><br/>
+                      <span class="threeXZ">47.90</span>
+                     </button>
+                     <button class="noneXZ">
+                        <span class="zeroXZ">22</span><br/>
+                        <span class="oneXZ">Ti</span><br/>
+                         <span class="threeXZ">47.90</span>
+                        </button>
+                        <button class="noneXZ">
+                           <span class="zeroXZ">22</span><br/>
+                           <span class="oneXZ">Ti</span><br/>
+                            <span class="threeXZ">47.90</span>
+                           </button>
+                           <button class="noneXZ">
+                              <span class="zeroXZ">22</span><br/>
+                              <span class="oneXZ">Ti</span><br/>
+                               <span class="threeXZ">47.90</span>
+                              </button>
+                              <button class="noneXZ">
+                                 <span class="zeroXZ">22</span><br/>
+                                 <span class="oneXZ">Ti</span><br/>
+                                  <span class="threeXZ">47.90</span>
+                                 </button>
+                                 <button class="noneXZ">
+                                    <span class="zeroXZ">22</span><br/>
+                                    <span class="oneXZ">Ti</span><br/>
+                                     <span class="threeXZ">47.90</span>
+                                    </button>
+                                    <button class="noneXZ">
+                                       <span class="zeroXZ">22</span><br/>
+                                       <span class="oneXZ">Ti</span><br/>
+                                        <span class="threeXZ">47.90</span>
+                                       </button>
+                                       <button class="noneXZ">
+                                          <span class="zeroXZ">22</span><br/>
+                                          <span class="oneXZ">Ti</span><br/>
+                                           <span class="threeXZ">47.90</span>
+                                          </button>
+           <a href="https://en.wikipedia.org/wiki/Aluminium" target="fg"><button class="none12">
+               <span class="zero12">13</span><br/>
+               <span class="one12">Al</span><br/>
+             <span class="three12">27.00</span>
+               </button></a> 
+              <a href="https://en.wikipedia.org/wiki/Silicon" target="fg"><button class="none13">
+                  <span class="zero13">14</span><br/>
+                  <span class="one13">Si</span><br/>
+                 <span class="three13">28.10</span>
+                  </button></a>
+               <a href="https://en.wikipedia.org/wiki/Phosphorous" target="sd"><button class="none14">
+                     <span class="zero14">15</span><br/>
+                     <span class="one14">P</span><br/>                   
+                     <span class="three14">31.00</span>
+                     </button></a>
+                    <a href="https://en.wikipedia.org/wiki/Sulphur" target="fg"><button class="none15">
+                        <span class="zero15">16</span><br/>
+                        <span class="one15">S</span><br/>
+                        <span class="three15">32.10</span>
+                        </button></a>                  
+                      <a href="https://en.wikipedia.org/wiki/Chlorine" target="fg"><button class="none16">
+                           <span class="zero16">17</span><br/>
+                           <span class="one16">Cl</span><br/>
+                           <span class="three16">35.50</span>
+                           </button></a>                                    
+                         <a href="https://en.wikipedia.org/wiki/Argon" target="fg"><button class="none17">
+                              <span class="zero17">18</span><br/>
+                              <span class="one17">Ar</span><br/>
+                               <span class="three17">39.90</span>
+                              </button></a><br/>
+                             <a href="https://en.wikipedia.org/wiki/Potassium" target="fg"><button class="none18">
+                                 <span class="zero18">19</span><br/>
+                                 <span class="one18">K</span><br/>
+                                  <span class="three18">39.10</span>
+                                 </button></a>
+                               <a href="https://en.wikipedia.org/wiki/Calcium" target="fg"><button class="none19">
+                                    <span class="zero19">20</span><br/>
+                                    <span class="one19">Ca</span><br/>
+                                     <span class="three19">40.10</span>
+                                    </button></a>
+                                 <a href="https://en.wikipedia.org/wiki/Scandium" target="fg"><button class="none20">
+                                       <span class="zero20">21</span><br/>
+                                       <span class="one20">Sc</span><br/>
+                                        <span class="three20">45.00</span>
+                                       </button></a>
+                                    <a href="https://en.wikipedia.org/wiki/Titenium" target="fg"><button class="none21">
+                                          <span class="zero21">22</span><br/>
+                                          <span class="one21">Ti</span><br/>
+                                           <span class="three21">47.90</span>
+                                          </button></a>  
+                                      <a href="https://en.wikipedia.org/wiki/Vanadium" target="fg"><button class="none22">
+                                             <span class="zero22">23</span><br/>
+                                             <span class="one22">V</span><br/>
+                                              <span class="three22">50.90</span>
+                                             </button></a>  
+                               <a href="https://en.wikipedia.org/wiki/Chromium" target="fg"><button class="none23">
+                                    <span class="zero23">24</span><br/>
+                                    <span class="one23">Cr</span><br/>
+                                     <span class="three23">52.00</span>
+                                    </button></a> 
+                                <a href="https://en.wikipedia.org/wiki/Manganese" target="fg"><button class="none24">
+                                       <span class="zero24">25</span><br/>
+                                       <span class="one24">Mn</span><br/>
+                                        <span class="three24">54.90</span>
+                                       </button></a>
+                                    <a href="https://en.wikipedia.org/wiki/Iron" target="fg"><button class="none25">
+                                          <span class="zero25">26</span><br/>
+                                          <span class="one25">Fe</span><br/>
+                                           <span class="three25">55.80</span>
+                                          </button></a>
+                                    <a href="https://en.wikipedia.org/wiki/Cobalt" target="fg"><button class="none26">
+                                             <span class="zero26">27</span><br/>
+                                             <span class="one26">Co</span><br/>
+                                              <span class="three26">58.90</span>
+                                             </button></a> 
+                                      <a href="https://en.wikipedia.org/wiki/Nickel" target="fg"><button class="none27">
+                                                <span class="zero27">28</span><br/>
+                                                <span class="one27">Ni</span><br/>
+                                                 <span class="three27">58.70</span>
+                                                </button></a>
+                                             <a hrdf="https://en.wikipedia.org/wiki/Copper" target="fg"><button class="none28">
+                                                   <span class="zero28">29</span><br/>
+                                                   <span class="one28">Cu</span><br/>
+                                                    <span class="three28">63.50</span>
+                                                   </button></a>
+                                             <a href="https://en.wikipedia.org/wiki/Zinc" target="fg"><button class="none29">
+                                                      <span class="zero29">30</span><br/>
+                                                      <span class="one29">Zn</span><br/>
+                                                       <span class="three29">65.40</span>
+                                                      </button></a>
+                                             <a hrdf="https://en.wikipedia.org/wiki/Gallium" target="fg"><button class="none30">
+                                                         <span class="zero30">31</span><br/>
+                                                         <span class="one30">Ga</span><br/>
+                                                          <span class="three30">69.70</span>
+                                                         </button></a>                                                    
+                                              <a href="https://en.wikipedia.org/wiki/Germenium" target="fg"><button class="none31">
+                                                               <span class="zero31">32</span><br/>
+                                                               <span class="one31">Ge</span><br/>
+                                                                <span class="three31">72.60</span>
+                                                               </button></a>
+                                                 <a href="https://en.wikipedia.org/wiki/Arsenic" target="fg"><button class="none32">
+                                                                  <span class="zero32">33</span><br/>
+                                                                  <span class="one32">As</span><br/>
+                                                                   <span class="three32">74.90</span>
+                                                                  </button></a>
+                                                    <a href="https://en.wikipedia.org/wiki/Selenium" target="fg"><button class="none33">
+                                                                     <span class="zero33">34</span><br/>
+                                                                     <span class="one33">Se</span><br/>
+                                                                      <span class="three33">79.00</span>
+                                                                     </button></a>
+                                                  <a href="https://en.wikipedia.org/wiki/Bromine" target="fg"><button class="none34">
+                                                                        <span class="zero34">35</span><br/>
+                                                                        <span class="one34">Br</span><br/>
+                                                                         <span class="three34">79.90</span>
+                                                                        </button></a>
+                                                   <a href="https://en.wikipedia.org/wiki/Krypton" target="fg"><button class="none35">
+                                                                           <span class="zero35">36</span><br/>
+                                                                           <span class="one35">Kr</span><br/>
+                                                                            <span class="three35">83.80</span>
+                                                                           </button></a><br/>
+                                                    <a href="https://en.wikipedia.org/wiki/Rubidium" target="fg"><button class="none36">
+                                                                              <span class="zero36">37</span><br/>
+                                                                              <span class="one36">Rb</span><br/>
+                                                                               <span class="three36">85.50</span>
+                                                                              </button></a>
+                                                   <a href="https://en.wikipedia.org/wiki/Strontium" target="fg"><button class="none37">
+                                                                                 <span class="zero37">38</span><br/>
+                                                                                 <span class="one37">Sr</span><br/>
+                                                                                  <span class="three37">87.60</span>
+                                                                                 </button></a>
+                                                   <a href="https://en.wikipedia.org/wiki/Yttrium" target="fg"><button class="none38">
+                                                                                    <span class="zero38">39</span><br/>
+                                                                                    <span class="one38">Y</span><br/>
+                                                                                     <span class="three38">88.90</span>
+                                                                                    </button></a> 
+                                                    <a href="https://en.wikipedia.org/wiki/Zirconium" target="fg"><button class="none39">
+                                                                                       <span class="zero39">40</span><br/>
+                                                                                       <span class="one39">Zr</span><br/>
+                                                                                        <span class="three39">91.20</span>
+                                                                                       </button></a>
+                                                <a href="https://en.wikipedia.org/wiki/Niobium" target="fg"><button class="none40">
+                                                                                          <span class="zero40">41</span><br/>
+                                                                                          <span class="one40">Nb</span><br/>
+                                                                                           <span class="three40">72.90</span>
+                                                                                          </button></a>    
+                                               <a href="https://en.wikipedia.org/wiki/Molybdenum" target="u"><button class="none41">
+                                                                                 <span class="zero41">42</span><br/>
+                                                                                 <span class="one41">Mo</span><br/>
+                                                                                  <span class="three41">95.90</span>
+                                                                                 </button></a>
+                                                <a href="https://en.wikipedia.org/wiki/Technetium" target="h"><button class="none42">
+                                                                                    <span class="zero42">43</span><br/>
+                                                                                    <span class="one42">Tc</span><br/>
+                                                                                     <span class="three42">98.00</span>
+                                                                                    </button></a>
+                                                 <a href="https://en.wikipedia.org/wiki/Ruthenium" target="gh"><button class="none43">
+                                                                                       <span class="zero43">44</span><br/>
+                                                                                       <span class="one43">Ru</span><br/>
+                                                                                        <span class="three43">101.0</span>
+                                                                                       </button></a>
+                                                 <a href="https://en.wikipedia.org/wiki/Rhodium" target="po"><button class="none44">
+                                                                                          <span class="zero44">45</span><br/>
+                                                                                          <span class="one44">Rh</span><br/>
+                                                                                           <span class="three44">102.9</span>
+                                                                                          </button></a> 
+                                       <a href="https://en.wikipedia.org/wiki/Palladium" target="jk"><button class="none45">
+                                                                                             <span class="zero45">46</span><br/>
+                                                                                             <span class="one45">Pd</span><br/>
+                                                                                              <span class="three45">106.4</span>
+                                                                                             </button></a>
+                               <a href="https://en.wikipedia.org/wiki/Silver" target="li"><button class="none46">
+                                                                                                <span class="zero46">47</span><br/>
+                                                                                                <span class="one46">Ag</span><br/>
+                                                                                                 <span class="three46">107.9</span>
+                                                                                                </button></a>
+                              <a href="https://en.wikipedia.org/wiki/Cadmium" target="hj"><button class="none47">
+                                                                                                   <span class="zero47">48</span><br/>
+                                                                                                   <span class="one47">Cd</span><br/>
+                                                                                                    <span class="three47">112.4</span>
+                                                                                                   </button></a>
+                                                       <a href="https://en.wikipedia.org/wiki/Indium" target="tu"><button class="none48">
+                                                                                                      <span class="zero48">49</span><br/>
+                                                                                                      <span class="one48">In</span><br/>
+                                                                                                       <span class="three48">114.8</span>
+                                                                                                      </button></a>                                                      
+                                                     <a href="https://en.wikipedia.org/wiki/Tin" target="ty"><button class="none49">
+                                                                                                            <span class="zero49">50</span><br/>
+                                                                                                            <span class="one49">Sn</span><br/>
+                                                                                                             <span class="three49">118.7</span>
+                                                                                                            </button></a>
+                                                     <a href="https://en.wikipedia.org/wiki/Antimony" target="nm"><button class="none50">
+                                                                                                               <span class="zero50">51</span><br/>
+                                                                                                               <span class="one50">Sb</span><br/>
+                                                                                                                <span class="three50">121.8</span>
+                                                                                                               </button></a>
+                                                    <a href="https://en.wikipedia.org/wiki/Tellurium" target="gf"><button class="none51">
+                                                                                                                  <span class="zero51">52</span><br/>
+                                                                                                                  <span class="one51">Te</span><br/>
+                                                                                                                   <span class="three51">127.6</span>
+                                                                                                                  </button></a>
+                                                   <a href="https://en.wikipedia.org/wiki/Iodine" target="rt"><button class="none52">
+                                                                                                                     <span class="zero52">53</span><br/>
+                                                                                                                     <span class="one52">I</span><br/>
+                                                                                                                      <span class="three52">126.9</span>
+                                                                                                                     </button></a>
+                                                  <a href="https://en.wikipedia.org/wiki/Xenon" target="bt"><button class="none53">
+                                                                                                                        <span class="zero53">54</span><br/>
+                                                                                                                        <span class="one53">Xe</span><br/>
+                                                                                                                         <span class="three53">131.3</span>
+                                                                                                                        </button></a> <br/>                                              
+                                                                                                                   <a href="https://en.wikipedia.org/wiki/Caesium" target="nh"><button class="none54">
+                                                                                                                           <span class="zero54">55</span><br/>
+                                                                                                                           <span class="one54">Cs</span><br/>
+                                                                                                                            <span class="three54">132.9</span>
+                                                                                                                           </button></a>
+                                                <a href="https://en.wikipedia.org/wiki/Barium" target="kh"><button class="none55">
+                                                                                                                              <span class="zero55">56</span><br/>
+                                                                                                                              <span class="one55">Ba</span><br/>
+                                                                                                                               <span class="three55">137.3</span>
+                                                                                                                              </button></a> 
+                                                 <a href="https://en.wikipedia.org/wiki/Lanthanoids" target="bg"><button class="noneTY">
+                                                                                                                                 <span class="zeroTY">57-71</span><br/>
+                                                                                                                                 <span class="oneTY">lanth</span><br/>
+                                                                                                                                  <span class="threeTY">anoids</span>
+                                                                                                                                 </button></a>
+                                                   <a href="https://en.wikipedia.org/wiki/Hafnium" target="th"><button class="none71">
+                                                                                                                                    <span class="zero71">72</span><br/>
+                                                                                                                                    <span class="one71">Hf</span><br/>
+                                                                                                                                     <span class="three71">178.5</span>
+                                                                                                                                    </button></a>
+                                                                                                                <a href="https://en.wikipedia.org/wiki/Tantalum" target="ef"><button class="none72">
+                                                                                                                                       <span class="zero72">73</span><br/>
+                                                                                                                                       <span class="one72">Ta</span><br/>
+                                                                                                                                        <span class="three72">180.9</span>
+                                                                                                                                       </button></a>    
+                                                                                                                       <a href="https://en.wikipedia.org/wiki/Tungsten" target="hj"><button class="none73">
+                                                                                                                              <span class="zero73">74</span><br/>
+                                                                                                                              <span class="one73">W</span><br/>
+                                                                                                                               <span class="three73">183.8</span>
+                                                                                                                              </button></a> 
+                                                                                                                  <a href="https://en.wikipedia.org/wiki/Rhenium" target="op"><button class="none74">
+                                                                                                                                 <span class="zero74">75</span><br/>
+                                                                                                                                 <span class="one74">Re</span><br/>
+                                                                                                                                  <span class="three74">186.2</span>
+                                                                                                                                 </button></a>
+                                                                                                                            <a href="https://en.wikipedia.org/wiki/Osmium" target="bh"><button class="none75">
+                                                                                                                                    <span class="zero75">76</span><br/>
+                                                                                                                                    <span class="one75">Os</span><br/>
+                                                                                                                                     <span class="three75">190.2</span>
+                                                                                                                                    </button></a>
+                                                                                                                              <a hrdf="https://en.wikipedia.org/wiki/Iridium" target="rt"><button class="none76">
+                                                                                                                                       <span class="zero76">77</span><br/>
+                                                                                                                                       <span class="one76">Ir</span><br/>
+                                                                                                                                        <span class="three76">192.2</span>
+                                                                                                                                       </button></a>
+                                                                                                                                    <a href="https://en.wikipedia.org/wiki/Platinum" target="we"><button class="none77">
+                                                                                                                                          <span class="zero77">78</span><br/>
+                                                                                                                                          <span class="one77">Pt</span><br/>
+                                                                                                                                           <span class="three77">195.1</span>
+                                                                                                                                          </button></a>
+                                                                                                                                     <a href="https://en.wikipedia.org/wiki/Gold" target="nh"><button class="none78">
+                                                                                                                                             <span class="zero78">79</span><br/>
+                                                                                                                                             <span class="one78">Au</span><br/>
+                                                                                                                                              <span class="three78">197.0</span>
+                                                                                                                                             </button></a>
+                                                                                                                                      <a href="https://en.wikipedia.org/wiki/Mercury" target="qw"><button class="none79">
+                                                                                                                                                <span class="zero79">80</span><br/>
+                                                                                                                                                <span class="one79">Hg</span><br/>
+                                                                                                                                                 <span class="three79">200.6</span>
+                                                                                                                                                </button></a>
+                                                                                                                                         <a href="https://en.wikipedia.org/wiki/Thallium" target="wr"><button class="none80">
+                                                                                                                                                   <span class="zero80">81</span><br/>
+                                                                                                                                                   <span class="one80">Tl</span><br/>
+                                                                                                                                                    <span class="three80">204.4</span>
+                                                                                                                                                   </button></a>                                                     
+                                                                                                                                            <a href="https://en.wikipedia.org/wiki/Lead" target="gf"><button class="none81">
+                                                                                                                                                         <span class="zero81">82</span><br/>
+                                                                                                                                                         <span class="one81">Pb</span><br/>
+                                                                                                                                                          <span class="three81">207.2</span>
+                                                                                                                                                         </button></a>
+                                                                                                                                                     <a href="https://en.wikipedia.org/wiki/Bismuth" target="ef"><button class="none82">
+                                                                                                                                                            <span class="zero82">83</span><br/>
+                                                                                                                                                            <span class="one82">Bi</span><br/>
+                                                                                                                                                             <span class="three82">209.0</span>
+                                                                                                                                                            </button></a>
+                                                                                                                                                       <a href="https://en.wikipedia.org/wiki/Polonium" target="qs"><button class="none83">
+                                                                                                                                                               <span class="zero83">84</span><br/>
+                                                                                                                                                               <span class="one83">Po</span><br/>
+                                                                                                                                                                <span class="three83">209.0</span>
+                                                                                                                                                               </button></a>
+                                                                                                                                                              <a href="https://en.wikipedia.org/wiki/Astatine" target="jl"><button class="none84">
+                                                                                                                                                                  <span class="zero84">85</span><br/>
+                                                                                                                                                                  <span class="one84">At</span><br/>
+                                                                                                                                                                   <span class="three84">210.0</span>
+                                                                                                                                                                  </button></a>
+                                                                                                                                                             <a href="https://en.wikipedia.org/wiki/Radon" target="df"><button class="none85">
+                                                                                                                                                                     <span class="zero85">86</span><br/>
+                                                                                                                                                                     <span class="one85">Rn</span><br/>
+                                                                                                                                                                      <span class="three85">222.0</span>
+                                                                                                                                                                     </button></a>  <br/>                                                                                                                                               
+                                                                                                                                                                   <a href="https://en.wikipedia.org/wiki/Francium" target="pl"><button class="none86">
+                                                                                                                                                                        <span class="zero86">87</span><br/>
+                                                                                                                                                                        <span class="one86">Fr</span><br/>
+                                                                                                                                                                         <span class="three86">223.0</span>
+                                                                                                                                                                        </button></a>
+                                                                                                                                                                     <a href="https://en.wikipedia.org/wiki/Radium" target="hk"><button class="none87">
+                                                                                                                                                                           <span class="zero87">88</span><br/>
+                                                                                                                                                                           <span class="one87">Ra</span><br/>
+                                                                                                                                                                            <span class="three87">226.0</span>
+                                                                                                                                                                           </button></a> 
+                                                                                                                                                                          <a href="https://en.wikipedia.org/wiki/Actinoids" target="fg"><button class="noneKM">
+                                                                                                                                                                              <span class="zeroKM">89-103</span><br/>
+                                                                                                                                                                              <span class="oneKM">Acti</span><br/>
+                                                                                                                                                                               <span class="threeKM">noids</span>
+                                                                                                                                                                              </button></a> 
+                                                                                                                                                                            <a href="https://en.wikipedia.org/wiki/Rutherfordium" target="vf"><button class="none103">
+                                                                                                                                                                                 <span class="zero103">104</span><br/>
+                                                                                                                                                                                 <span class="one103">Rf</span><br/>
+                                                                                                                                                                                  <span class="three103">261.0</span>
+                                                                                                                                                                                 </button></a>
+                                                                                                                                                                                <a href="https://en.wikipedia.org/wiki/Dubnium" target="qe"><button class="none104">
+                                                                                                                                                                                    <span class="zero104">105</span><br/>
+                                                                                                                                                                                    <span class="one104">Db</span><br/>
+                                                                                                                                                                                     <span class="three104">262.0</span>
+                                                                                                                                                                                    </button></a>   
+                                                                                                                                                                      <a href="https://en.wikipedia.org/wiki/Seaborgium" target="bg"> <button class="none105">
+                                                                                                                                                                           <span class="zero105">106</span><br/>
+                                                                                                                                                                           <span class="one105">Sg</span><br/>
+                                                                                                                                                                            <span class="three105">266.0</span>
+                                                                                                                                                                           </button></a> 
+                                                                                                                                                                         <a href="https://en.wikipedia.org/wiki/Bohrium" target="qr"> <button class="none106">
+                                                                                                                                                                              <span class="zero106">107</span><br/>
+                                                                                                                                                                              <span class="one106">Bh</span><br/>
+                                                                                                                                                                               <span class="three106">264.0</span>
+                                                                                                                                                                              </button></a>
+                                                                                                                                                                         <a href="https://en.wikipedia.org/wiki/Hassium" target="nv">  <button class="none107">
+                                                                                                                                                                                 <span class="zero107">108</span><br/>
+                                                                                                                                                                                 <span class="one107">Hs</span><br/>
+                                                                                                                                                                                  <span class="three107">269.0</span>
+                                                                                                                                                                                 </button></a>
+                                                                                                                                                                            <a href="https://en.wikipedia.org/wiki/Meitnerium" target="df"><button class="none108">
+                                                                                                                                                                                    <span class="zero108">109</span><br/>
+                                                                                                                                                                                    <span class="one108">Mt</span><br/>
+                                                                                                                                                                                     <span class="three108">268.0</span>
+                                                                                                                                                                                    </button></a>
+                                                                                                                                                                               <a href="https://en.wikipedia.org/wiki/Darmstadtium" target="kl"> <button class="none109">
+                                                                                                                                                                                       <span class="zero109">110</span><br/>
+                                                                                                                                                                                       <span class="one109">Ds</span><br/>
+                                                                                                                                                                                        <span class="three109">269.0</span>
+                                                                                                                                                                                       </button></a>
+                                                                                                                                                                                    <a href="https://en.wikipedia.org/wiki/Roentgenium" target="ba"><button class="none110">
+                                                                                                                                                                                          <span class="zero110">111</span><br/>
+                                                                                                                                                                                          <span class="one110">Rg</span><br/>
+                                                                                                                                                                                           <span class="three110">272.0</span>
+                                                                                                                                                                                          </button></a>
+                                                                                                                                                                                        <a href="https://en.wikipedia.org/wiki/Copernicium" target="pk"><button class="none111">
+                                                                                                                                                                                             <span class="zero111">112</span><br/>
+                                                                                                                                                                                             <span class="one111">Cn</span><br/>
+                                                                                                                                                                                              <span class="three111">277.0</span>
+                                                                                                                                                                                             </button></a><br/><br/>
+                                                                                                                                                                                             <button class="noneUW">
+                                                                                                                                                                                                <span class="zeroUW">22</span><br/>
+                                                                                                                                                                                                <span class="oneUW">Ti</span><br/>
+                                                                                                                                                                                                 <span class="threeUW">47.90</span>
+                                                                                                                                                                                                </button>
+                                                                                                                                                                                                <button class="noneBW">
+                                                                                                                                                                                                   <span class="zeroBW">22</span><br/>
+                                                                                                                                                                                                   <span class="oneBW">Ti</span><br/>
+                                                                                                                                                                                                    <span class="threeBW">47.90</span>
+                                                                                                                                                                                                   </button>
+                                                                                                                                                                                            <a href="https://en.wikipedia.org/wiki/Lanthanum" target="pl"><button class="none56">
+                                                                                                                                                                                                <span class="zero56">57</span><br/>
+                                                                                                                                                                                                <span class="one56">La</span><br/>
+                                                                                                                                                                                                 <span class="three56">138.9</span>
+                                                                                                                                                                                                </button></a>  
+                                                                                                                                                                                                <a href="https://en.wikipedia.org/wiki/Cerium" target="jh"><button class="none57">
+                                                                                                                                                                                                   <span class="zero57">58</span><br/>
+                                                                                                                                                                                                   <span class="one57">Ce</span><br/>
+                                                                                                                                                                                                    <span class="three57">140.1</span>
+                                                                                                                                                                                                   </button></a>    
+                                                                                                                                                                                       <a href="https://en.wikipedia.org/wiki/Praseodymium" target="bf"><button class="none58">
+                                                                                                                                                                                          <span class="zero58">59</span><br/>
+                                                                                                                                                                                          <span class="one58">Pr</span><br/>
+                                                                                                                                                                                           <span class="three58">140.9</span>
+                                                                                                                                                                                          </button></a> 
+                                                                                                                                                                                          <a href="https://en.wikipedia.org/wiki/Neodymium" target="jn"><button class="none59">
+                                                                                                                                                                                             <span class="zero59">60</span><br/>
+                                                                                                                                                                                             <span class="one59">Nd</span><br/>
+                                                                                                                                                                                              <span class="three59">144.2</span>
+                                                                                                                                                                                             </button></a>
+                                                                                                                                                                                             <a href="https://en.wikipedia.org/wiki/Promethium" target="uj"><button class="none60">
+                                                                                                                                                                                                <span class="zero60">61</span><br/>
+                                                                                                                                                                                                <span class="one60">Pm</span><br/>
+                                                                                                                                                                                                 <span class="three60">145.0</span>
+                                                                                                                                                                                                </button></a>
+                                                                                                                                                                                                <a href="https://en.wikipedia.org/wiki/Samarium" target="po"><button class="none61">
+                                                                                                                                                                                                   <span class="zero61">62</span><br/>
+                                                                                                                                                                                                   <span class="one61">Sm</span><br/>
+                                                                                                                                                                                                    <span class="three61">150.4</span>
+                                                                                                                                                                                                   </button></a>  
+                                                                                                                                                                                                   <a href="https://en.wikipedia.org/wiki/Europium" target="hg"><button class="none62">
+                                                                                                                                                                                                      <span class="zero62">63</span><br/>
+                                                                                                                                                                                                      <span class="one62">Eu</span><br/>
+                                                                                                                                                                                                       <span class="three62">152.0</span>
+                                                                                                                                                                                                      </button></a>
+                                                                                                                                                                                                      <a href="https://en.wikipedia.org/wiki/Gadolinium" target="nd"><button class="none63">
+                                                                                                                                                                                                         <span class="zero63">64</span><br/>
+                                                                                                                                                                                                         <span class="one63">Gd</span><br/>
+                                                                                                                                                                                                          <span class="three63">157.3</span>
+                                                                                                                                                                                                         </button></a>
+                                                                                                                                                                                                         <a href="https://en.wikipedia.org/wiki/Terbium" target="nd"><button class="none64">
+                                                                                                                                                                                                            <span class="zero64">65</span><br/>
+                                                                                                                                                                                                            <span class="one64">Tb</span><br/>
+                                                                                                                                                                                                             <span class="three64">158.9</span>
+                                                                                                                                                                                                            </button></a>
+                                                                                                                                                                                                            <a href="https://en.wikipedia.org/wiki/Dysprocium" target="lu"><button class="none65">
+                                                                                                                                                                                                               <span class="zero65">66</span><br/>
+                                                                                                                                                                                                               <span class="one65">Dy</span><br/>
+                                                                                                                                                                                                                <span class="three65">162.5</span>
+                                                                                                                                                                                                               </button></a>  
+                                                                                                                                                                                                               <a href="https://en.wikipedia.org/wiki/Holmium" target="xc"><button class="none66">
+                                                                                                                                                                                                                  <span class="zero66">67</span><br/>
+                                                                                                                                                                                                                  <span class="one66">Ho</span><br/>
+                                                                                                                                                                                                                   <span class="three66">164.9</span>
+                                                                                                                                                                                                                  </button></a>    
+                                                                                                                                                                                                       <a href="https://en.wikipedia.org/wiki/Erbium" target="mw"><button class="none67">
+                                                                                                                                                                                                         <span class="zero67">68</span><br/>
+                                                                                                                                                                                                         <span class="one67">Er</span><br/>
+                                                                                                                                                                                                          <span class="three67">167.3</span>
+                                                                                                                                                                                                         </button></a> 
+                                                                                                                                                                                                         <a href="https://en.wikipedia.org/wiki/Thulium" target="ps"><button class="none68">
+                                                                                                                                                                                                            <span class="zero68">69</span><br/>
+                                                                                                                                                                                                            <span class="one68">Tm</span><br/>
+                                                                                                                                                                                                             <span class="three68">168.9</span>
+                                                                                                                                                                                                            </button></a>
+                                                                                                                                                                                                            <a href="https://en.wikipedia.org/wiki/Ytterbium" target="bx"><button class="none69">
+                                                                                                                                                                                                               <span class="zero69">70</span><br/>
+                                                                                                                                                                                                               <span class="one69">Yb</span><br/>
+                                                                                                                                                                                                                <span class="three69">173.0</span>
+                                                                                                                                                                                                               </button></a>
+                                                                                                                                                                                                               <a href="https://en.wikipedia.org/wiki/Lutetium" target="bv"><button class="none70">
+                                                                                                                                                                                                                  <span class="zero70">71</span><br/>
+                                                                                                                                                                                                                  <span class="one70">Lu</span><br/>
+                                                                                                                                                                                                                   <span class="three70">175.0</span>
+                                                                                                                                                                                                                  </button></a><br/>
+                                                                                                                                                                                                                  <button class="noneUW">
+                                                                                                                                                                                                                     <span class="zeroUW">22</span><br/>
+                                                                                                                                                                                                                     <span class="oneUW">Ti</span><br/>
+                                                                                                                                                                                                                      <span class="threeUW">47.90</span>
+                                                                                                                                                                                                                     </button>
+                                                                                                                                                                                                                     <button class="noneBW">
+                                                                                                                                                                                                                        <span class="zeroBW">22</span><br/>
+                                                                                                                                                                                                                        <span class="oneBW">Ti</span><br/>
+                                                                                                                                                                                                                         <span class="threeBW">47.90</span>
+                                                                                                                                                                                                                        </button> 
+                                                                                                                                                                                                                  <a href="https://en.wikipedia.org/wiki/Actinium" target="ns"><button class="none88">
+                                                                                                                                                                                                                     <span class="zero88">89</span><br/>
+                                                                                                                                                                                                                     <span class="one88">Ac</span><br/>
+                                                                                                                                                                                                                      <span class="three88">227.0</span>
+                                                                                                                                                                                                                     </button></a>
+                                                                                                                                                                                                                     <a href="https://en.wikipedia.org/wiki/Thorium" target="bw"><button class="none89">
+                                                                                                                                                                                                                        <span class="zero89">90</span><br/>
+                                                                                                                                                                                                                        <span class="one89">Th</span><br/>
+                                                                                                                                                                                                                         <span class="three89">232.0</span>
+                                                                                                                                                                                                                        </button></a>
+                                                                                                                                                                                                                        <a href="https://en.wikipedia.org/wiki/Protactinium" target="fd"><button class="none90">
+                                                                                                                                                                                                                           <span class="zero90">91</span><br/>
+                                                                                                                                                                                                                           <span class="one90">Pa</span><br/>
+                                                                                                                                                                                                                            <span class="three90">231.0</span>
+                                                                                                                                                                                                                           </button></a>
+                                                                                                                                                                                                                           <a href="https://en.wikipedia.org/wiki/Uranium" target="nx"><button class="none91">
+                                                                                                                                                                                                                              <span class="zero91">92</span><br/>
+                                                                                                                                                                                                                              <span class="one91">U</span><br/>
+                                                                                                                                                                                                                               <span class="three91">238.0</span>
+                                                                                                                                                                                                                              </button></a>  
+                                                                                                                                                                                                                              <a href="https://en.wikipedia.org/wiki/Neptunium" target="mg"><button class="none92">
+                                                                                                                                                                                                                                 <span class="zero92">93</span><br/>
+                                                                                                                                                                                                                                 <span class="one92">Np</span><br/>
+                                                                                                                                                                                                                                  <span class="three92">237.0</span>
+                                                                                                                                                                                                                                 </button></a>    
+                                                                                                                                                                                                                     <a href="https://en.wikipedia.org/wiki/Plutonium" target="hz"><button class="none93">
+                                                                                                                                                                                                                        <span class="zero93">94</span><br/>
+                                                                                                                                                                                                                        <span class="one93">Pu</span><br/>
+                                                                                                                                                                                                                         <span class="three93">244.0</span>
+                                                                                                                                                                                                                        </button></a> 
+                                                                                                                                                                                                                        <a href="https://en.wikipedia.org/wiki/Americium" target="mj"><button class="none94">
+                                                                                                                                                                                                                           <span class="zero94">95</span><br/>
+                                                                                                                                                                                                                           <span class="one94">Am</span><br/>
+                                                                                                                                                                                                                            <span class="three94">243.0</span>
+                                                                                                                                                                                                                           </button></a>
+                                                                                                                                                                                                                           <a href="https://en.wikipedia.org/wiki/Curium" target="hw"><button class="none95">
+                                                                                                                                                                                                                              <span class="zero95">96</span><br/>
+                                                                                                                                                                                                                              <span class="one95">Cm</span><br/>
+                                                                                                                                                                                                                               <span class="three95">247.0</span>
+                                                                                                                                                                                                                              </button></a>
+                                                                                                                                                                                                                              <a href="https://en.wikipedia.org/wiki/Berkelium" target="ad"><button class="none96">
+                                                                                                                                                                                                                                 <span class="zero96">97</span><br/>
+                                                                                                                                                                                                                                 <span class="one96">Bk</span><br/>
+                                                                                                                                                                                                                                  <span class="three96">247.0</span>
+                                                                                                                                                                                                                                 </button></a>  
+                                                                                                                                                                                                                                 <a href="https://en.wikipedia.org/wiki/Californium" target="sd"><button class="none97">
+                                                                                                                                                                                                                                    <span class="zero97">98</span><br/>
+                                                                                                                                                                                                                                    <span class="one97">Cf</span><br/>
+                                                                                                                                                                                                                                     <span class="three97">251.0</span>
+                                                                                                                                                                                                                                    </button></a>
+                                                                                                                                                                                                                                    <a href="https://en.wikipedia.org/wiki/Einsteinium" target="ft"><button class="none98">
+                                                                                                                                                                                                                                       <span class="zero98">99</span><br/>
+                                                                                                                                                                                                                                       <span class="one98">Es</span><br/>
+                                                                                                                                                                                                                                        <span class="three98">254.0</span>
+                                                                                                                                                                                                                                       </button></a>
+                                                                                                                                                                                                                                       <a href="https://en.wikipedia.org/wiki/Fermium" target="fm"><button class="none99">
+                                                                                                                                                                                                                                          <span class="zero99">100</span><br/>
+                                                                                                                                                                                                                                          <span class="one99">Fm</span><br/>
+                                                                                                                                                                                                                                           <span class="three99">253.0</span>
+                                                                                                                                                                                                                                          </button></a>
+                                                                                                                                                                                                                                          <a href="https://en.wikipedia.org/wiki/Mendelevium" target="fr"><button class="none100">
+                                                                                                                                                                                                                                             <span class="zero100">101</span><br/>
+                                                                                                                                                                                                                                             <span class="one100">Md</span><br/>
+                                                                                                                                                                                                                                              <span class="three100">256.0</span>
+                                                                                                                                                                                                                                             </button></a>  
+                                                                                                                                                                                                                                             <a href="https://en.wikipedia.org/wiki/Nobelium" target="fr"><button class="none101">
+                                                                                                                                                                                                                                                <span class="zero101">102</span><br/>
+                                                                                                                                                                                                                                                <span class="one101">No</span><br/>
+                                                                                                                                                                                                                                                 <span class="three101">254.0</span>
+                                                                                                                                                                                                                                                </button></a>
+                                                                                                                                                                                                                                                <a href="https://en.wikipedia.org/wiki/Lawrencium" target="law"><button class="none102">
+                                                                                                                                                                                                                                                   <span class="zero102">103</span><br/>
+                                                                                                                                                                                                                                                   <span class="one102">Lr</span><br/>
+                                                                                                                                                                                                                                                    <span class="three102">257.0</span>
+                                                                                                                                                                                                                                                   </button></a>        
+                                                                                                                                                                                                                                   </body>
